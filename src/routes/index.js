@@ -7,8 +7,9 @@ export const createRoutes = (store) => ({
 	component: Layout,
 	indexRoute: Home,
 	childRoutes: [
-		require('./film').default(store),
+    require('./film').default(store),
 		require('./canvas').default(store),
+    require('./decision_making').default(store),
 		require('./redirect').default()
 	]
 })

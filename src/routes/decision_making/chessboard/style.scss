@@ -1,0 +1,19 @@
+.box {
+  //display: table-cell;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 20rem;
+  height: 20rem;
+  font-size: 118px;
+  border: 1px solid #beceeb;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.imgBox {
+  width: 15rem;
+
+  vertical-align: middle;
+}
+

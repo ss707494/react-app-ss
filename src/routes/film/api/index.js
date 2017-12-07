@@ -4,12 +4,13 @@
 import queryString from 'query-string'
 import _ from 'lodash'
 import apiData from './apiData'
-import fetchJsonp from 'fetch-jsonp'
+//import fetchJsonp from 'fetch-jsonp'
 
-const host = 'https://api.douban.com'
+//const host = 'https://api.douban.com'
 export const get = async(url, option) => {
 	try {
-		const res = await fetchJsonp(host + url, option)
+		//const res = await fetchJsonp(host + url, option)
+    const res = await fetch( url, option)
 		const json = await res.json()
 		return json
 	} catch (err) {

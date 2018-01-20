@@ -12,7 +12,7 @@ import { createHistory} from 'history'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
-const ss = "2342"
+const ss = "2342sdadf"
 
 const browserHistory = useRouterHistory(createHistory)({
   basename: "/react-app-ss"
